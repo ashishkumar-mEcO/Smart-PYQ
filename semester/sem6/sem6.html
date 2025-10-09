@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semester 1 - BCA PYQ</title>
+    <link rel="icon" type="image/x-icon" href="../../ico.png">
+    <link rel="stylesheet" href="sem6.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="../../main/main.html" class="back-btn">← Back to Home</a>
+            <h1>📚 Semester 6</h1>
+            <p class="semester-info">Third Year - Bachelor of Computer Applications</p>
+        </div>
+
+        <div class="subjects-container">
+            <!-- Subject 1: Web Technologies  -->
+            <div class="subject-card">
+                <div class="subject-header">
+                    <div class="subject-icon">💻</div>
+                    <div class="subject-name">Web Technologies (CC-13)</div>
+                </div>
+                <div class="pyq-list">
+                    <!-- <div class="pyq-item">
+                        <div class="pyq-info">
+                            <span class="year-badge">2024</span>
+                            <span class="pyq-title">Web Technologies - End Term Exam</span>
+                        </div>
+                        <button class="preview-btn" onclick="openPreview('pdfs/c-programming-2024.pdf', 'C Programming 2024')">
+                            📖 View Paper
+                        </button>
+                    </div> -->
+                    <div class="no-pyq">No PYQs available yet. Check back soon!</div>
+                </div>
+            </div>
+
+            <!-- Subject 2: Android and App Development -->
+            <div class="subject-card">
+                <div class="subject-header">
+                    <div class="subject-icon">🖥️</div>
+                    <div class="subject-name">Android and App Development (CC-14)</div>
+                </div>
+                <div class="pyq-list">
+                    <!-- <div class="pyq-item">
+                        <div class="pyq-info">
+                            <span class="year-badge">2024</span>
+                            <span class="pyq-title">Android and App Development- End Term Exam</span>
+                        </div>
+                        <button class="preview-btn" onclick="openPreview('pdfs/computer-fundamentals-2024.pdf', 'Computer Fundamentals 2024')">
+                            📖 View Paper
+                        </button>
+                    </div> -->
+                    <div class="no-pyq">No PYQs available yet. Check back soon!</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Preview Modal -->
+    <div class="modal" id="previewModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title" id="modalTitle">Preview</div>
+                <button class="close-btn" onclick="closePreview()">×</button>
+            </div>
+            <div class="pdf-viewer">
+                <iframe id="pdfFrame" src=""></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="sem6.js"></script>
+</body>
+</html>

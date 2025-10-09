@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart PYQ - Previous Year Questions</title>
+    <link rel="icon" type="image/x-icon" href="ico.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Smart PYQ</h1>
+            <p class="subtitle">Your Complete Resource for BCA Previous Year Questions</p>
+            
+            <div class="course-title">
+                <h2>🎓 Bachelor of Computer Applications</h2>
+                <p class="course-subtitle">All Semesters • All Years • Easy Access</p>
+            </div>
+
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search by year or semester...">
+                <button class="search-btn" onclick="searchPYQ()">Filter</button>
+            </div>
+        </header>
+
+        <main>
+            <div class="years-container" id="yearsContainer">
+                <!-- First Year -->
+                <div class="year-card" data-year="1">
+                    <div class="year-header">
+                        <div class="year-number">1st</div>
+                        <div class="year-title">First Year</div>
+                    </div>
+                    <div class="semesters">
+                        <a href="../semester/sem1/sem1.html" class="semester-btn" data-semester="1-1">
+                            Semester 1
+
+                        </a>
+                        <a href="../semester/sem2/sem2.html" class="semester-btn" data-semester="1-2">
+                            Semester 2
+                            
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Second Year -->
+                <div class="year-card" data-year="2">
+                    <div class="year-header">
+                        <div class="year-number">2nd</div>
+                        <div class="year-title">Second Year</div>
+                    </div>
+                    <div class="semesters">
+                        <a href="../semester/sem3/sem3.html" class="semester-btn" data-semester="2-1">
+                            Semester 3
+                            
+                        </a>
+                        <a href="../semester/sem4/sem4.html" class="semester-btn" data-semester="2-2">
+                            Semester 4
+                            
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Third Year -->
+                <div class="year-card" data-year="3">
+                    <div class="year-header">
+                        <div class="year-number">3rd</div>
+                        <div class="year-title">Third Year</div>
+                    </div>
+                    <div class="semesters">
+                        <a href="../semester/sem5/sem5.html" class="semester-btn" data-semester="3-1">
+                            Semester 5
+                            
+                        </a>
+                        <a href="../semester/sem6/sem6.html" class="semester-btn" data-semester="3-2">
+                            Semester 6
+                            
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="no-results" id="noResults">
+                No results found matching your search.
+            </div>
+        </main>
+
+        <div class="stats">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>100+</h3>
+                    <p>Question Papers</p>
+                </div>
+                <div class="stat-item">
+                    <h3>6</h3>
+                    <p>Semesters</p>
+                </div>
+                <div class="stat-item">
+                    <h3>5+</h3>
+                    <p>Years Covered</p>
+                </div>
+                <div class="stat-item">
+                    <h3>50+</h3>
+                    <p>BCA Students</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h3>📖 About BCA PYQ Hub</h3>
+            <p>Access previous year question papers for all BCA semesters in one place. Our collection includes university exam papers, model questions, and sample papers to help you prepare effectively for your exams. All papers are organized by year and semester for easy navigation.</p>
+        </div>
+    </div>
+<script src="script.js"></script>
+    
+</body>
+</html>

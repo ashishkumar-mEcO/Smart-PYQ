@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semester 1 - BCA PYQ</title>
+    <link rel="icon" type="image/x-icon" href="../../ico.png">
+    <link rel="stylesheet" href="sem5.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="../../main/main.html" class="back-btn">← Back to Home</a>
+            <h1>📚 Semester 5</h1>
+            <p class="semester-info">Third Year - Bachelor of Computer Applications</p>
+        </div>
+
+        <div class="subjects-container">
+            <!-- Subject 1: Data Structures -->
+            <div class="subject-card">
+                <div class="subject-header">
+                    <div class="subject-icon">💻</div>
+                    <div class="subject-name">Data Structures (CC-11)</div>
+                </div>
+                <div class="pyq-list">
+                    <div class="pyq-item">
+                        <div class="pyq-info">
+                            <span class="year-badge">2024</span>
+                            <span class="pyq-title">Data Structures - End Term Exam (🕓 Available Soon...)</span>
+                        </div>
+                        <button class="preview-btn" onclick="openPreview('pdf/DS/DS2024.pdf', 'DS 2024')">
+                            📖 View Paper
+                        </button>
+                    </div>
+                    <div class="pyq-item">
+                        <div class="pyq-info">
+                            <span class="year-badge">2023</span>
+                            <span class="pyq-title">Data Structures - End Term Exam</span>
+                        </div>
+                        <button class="preview-btn" onclick="openPreview('pdf/DS/DS2023.pdf', 'DS 2023')">
+                            📖 View Paper
+                        </button>
+                    </div>
+                    <div class="pyq-item">
+                        <div class="pyq-info">
+                            <span class="year-badge">2021</span>
+                            <span class="pyq-title">Data Structures - End Term Exam</span>
+                        </div>
+                        <button class="preview-btn" onclick="openPreview('pdf/DS/DS2021.pdf', 'DS 2021')">
+                            📖 View Paper
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Subject 2: Introduction to Big Data Analytics  -->
+            <div class="subject-card">
+                <div class="subject-header">
+                    <div class="subject-icon">🖥️</div>
+                    <div class="subject-name">Big Data Analytics (CC-12)</div>
+                </div>
+                <div class="pyq-list">
+                    <!-- <div class="pyq-item">
+                        <div class="pyq-info">
+                            <span class="year-badge">2024</span>
+                            <span class="pyq-title">Big Data Analytics - End Term Exam (🕓 Available Soon...)</span>
+                        </div>
+                        <button class="preview-btn" onclick="openPreview('pdfs/computer-fundamentals-2024.pdf', 'Computer Fundamentals 2024')">
+                            📖 View Paper
+                        </button>
+                    </div> -->
+                    <div class="no-pyq">No PYQs available yet. Check back soon!</div>
+                </div>
+            </div>
+
+            <!-- Subject 3: Operation Research -->
+            <div class="subject-card">
+                <div class="subject-header">
+                    <div class="subject-icon">🔢</div>
+                    <div class="subject-name">Operation Research (DSE-1)</div>
+                </div>
+                <div class="pyq-list">
+                    <div class="pyq-item">
+                        <div class="pyq-info">
+                            <span class="year-badge">2024</span>
+                            <span class="pyq-title">Operation Research - End Term Exam (🕓 Available Soon...)</span>
+                        </div>
+                        <button class="preview-btn" onclick="openPreview('pdf/OR/OR2024.pdf', 'Operation Research 2024')">
+                            📖 View Paper
+                        </button>
+                    </div>
+                    <div class="pyq-item">
+                        <div class="pyq-info">
+                            <span class="year-badge">2023</span>
+                            <span class="pyq-title">Operation Research - End Term Exam</span>
+                        </div>
+                        <button class="preview-btn" onclick="openPreview('pdf/OR/OR2023.pdf', 'Operation Research 2023')">
+                            📖 View Paper
+                        </button>
+                    </div>
+                    <div class="pyq-item">
+                        <div class="pyq-info">
+                            <span class="year-badge">2021</span>
+                            <span class="pyq-title">Operation Research - End Term Exam</span>
+                        </div>
+                        <button class="preview-btn" onclick="openPreview('pdf/OR/OR2021.pdf', 'Operation Research 2021')">
+                            📖 View Paper
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Subject 4: Information Security -->
+            <div class="subject-card">
+                <div class="subject-header">
+                    <div class="subject-icon">🔐</div>
+                    <div class="subject-name">Information Security (DSE-2)</div>
+                </div>
+                <div class="pyq-list">
+                    <div class="no-pyq">No PYQs available yet. Check back soon!</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Preview Modal -->
+    <div class="modal" id="previewModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title" id="modalTitle">Preview</div>
+                <button class="close-btn" onclick="closePreview()">×</button>
+            </div>
+            <div class="pdf-viewer">
+                <iframe id="pdfFrame" src=""></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="sem5.js"></script>
+</body>
+</html>
